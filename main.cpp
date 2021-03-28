@@ -9,9 +9,9 @@ string command;
 //当前时间
 time_t current_time;
 //读取文件名
-const string File="/Users/kevin/Desktop/文件/app/bin/word_test/bank_learn.txt";
+const string File="/Users/kevin/Desktop/文件/app/bin/word_test/bank_learn.txt";//这个路径显示的是学习文件储存的位置（含后缀.txt）
 //错词库文件名
-const string File_err="/Users/kevin/Desktop/文件/app/bin/word_test/bank_learn";
+const string File_err="/Users/kevin/Desktop/文件/app/bin/word_test/bank_learn";//这个路径显示的是错词库储存的位置（不含后缀）
 //总单词数量
 int total_size;
 //单词类
